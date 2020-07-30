@@ -1,0 +1,160 @@
+<resources>
+    <string name="instituteVersion">Weltec</string>
+
+    <string name="app_name">Classmate</string>
+    <string name="hintName">Username</string>
+    <string name="hintPassword">Password</string>
+    <string name="btnLogin">Login</string>
+    <string name="lnkSignup">Sign up here</string>
+    <string name="loginToast">Login failed. Please check your Username and Password.</string>
+
+    <string name="txtFirstName">First Name</string>
+    <string name="txtLastName">Last Name</string>
+    <string name="textEmail">Email Address</string>
+    <string name="txtUserName">Username</string>
+    <string name="txtPassword">Password</string>
+    <string name="btnSignUp">Sign-up</string>
+    <string name="signUpToast">Sign-up failed. Please check all fields are complete.</string>
+    <string name="passwordError">Must enter valid password</string>
+    <string name="usernameError">Must enter valid username</string>
+    <string name="emailError">Must enter valid email address</string>
+    <string name="lNameError">Must enter valid last name</string>
+    <string name="fNameError">Must enter valid first name</string>
+    <string name="institutionError">Select an institution</string>
+
+    <string name="add_course_name">+Course</string>
+    <string name="settings_name">Settings</string>
+    <string name="account_info">Account</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <string name="btnUpdate">Update</string>
+    <string name="btnDelete">Delete</string>
+    <string name="updateComplete">Account Updated</string>
+
+    <string name="courseSelection_welcome">Fill out the information and add your course to your account </string>
+    <string name="courseSelection_Toast">Please fill out all fields</string>
+
+    <string name="firstDeleteToast">Delete your account? Press again to permanently delete.</string>
+    <string name="secondDeleteToast">Account Deleted</string>
+
+    <string name="firstRemoveToast">Remove your enrolled course? Press again to permanently remove.</string>
+    <string name="secondRemoveToast">Enrolled Course Removed</string>
+
+    <!-- Course selection spinner hints -->
+    <string name="schoolOfHint">School</string>
+    <string name="programmesHint">Degree</string>
+    <string name="yearHint">Year</string>
+    <string name="courseHint">Course</string>
+
+    <!-- School of options -->
+    <string name="schoolIT">Information Technology School</string>
+    <string name="schoolEngineering">Engineering School</string>
+    <string name="schoolBusiness">Business School</string>
+    <!-- IT School programmes -->
+    <string name="ITprogramme_1of7">Bachelor of Information Technology (Level 7)</string>
+    <string name="ITprogramme_2of7">Graduate Diploma in Information Assurance and Security (Level 7)</string>
+    <string name="ITprogramme_3of7">Graduate Diploma in Information Technology (Level 7)</string>
+    <string name="ITprogramme_4of7">NZ Certificate in Information Technology Essentials (Level 4)</string>
+    <string name="ITprogramme_5of7">NZ Diploma in IT Technical Support (Level 5)</string>
+    <string name="ITprogramme_6of7">Postgraduate Certificate in Information Technology</string>
+    <string name="ITprogramme_7of7">Postgraduate Diploma in Information Technology</string>
+    <!-- IT BIT year -->
+    <string name="BITyear1">Year 1</string>
+    <string name="BITyear2">Year 2</string>
+    <string name="BITyear3">Year 3</string>
+    <!-- IT BIT year2 -->
+    <string name="BITyear2_Course_1of9">CS6501 Information Security 2</string>
+    <string name="BITyear2_Course_2of9">CS6502 Project Management</string>
+    <string name="BITyear2_Course_3of9">IT6501 Systems Analysis and Design</string>
+    <string name="BITyear2_Course_4of9">IT6502 Project Management</string>
+    <string name="BITyear2_Course_5of9">IT6504 Embedded Systems 1</string>
+    <string name="BITyear2_Course_6of9">IT6507 Wireless Networking Technology</string>
+    <string name="BITyear2_Course_7of9">NI6501 Networking 2 LAN</string>
+    <string name="BITyear2_Course_8of9">SD6501 Mobile Application Development</string>
+    <string name="BITyear2_Course_9of9">SD6502 Programming 2</string>
+
+    <!-- Password Show/Hide -->
+    <string name="passwordShow">Show</string>
+    <string name="passwordHide">Hide</string>
+
+    <string name="passwordOld">Old Password</string>
+    <string name="passwordNew">New Password</string>
+    <string name="passwordConfirm">Confirm Password</string>
+
+    <string name="passwordUpdateFail">Old password is incorrect</string>
+    <string name="passwordUpdateFail2">Invalid new password. Please enter a valid password</string>
+    <string name="passwordUpdateFail3">Invalid confirm password. Passwords do not match.</string>
+
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value" />
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+</resources>

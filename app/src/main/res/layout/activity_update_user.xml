@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login.SignupActivity">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <!--
+    <EditText
+        android:id="@+id/txtInstitute"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:text="@string/instituteVersion"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_bar"
+        tools:ignore="UnusedAttribute"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/txtFirstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/txtFirstName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtInstitute"
+        tools:ignore="UnusedAttribute"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/txtLastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/txtLastName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFirstName"
+        tools:ignore="UnusedAttribute"
+        android:enabled="false"/>
+
+    <EditText
+        android:id="@+id/txtUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/txtUserName"
+        android:importantForAutofill="no"
+        android:inputType="textPersonName"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLastName"
+        tools:ignore="UnusedAttribute"
+        android:enabled="false"/>
+        -->
+
+    <!--    <Spinner
+            android:id="@+id/spinnerInstitute"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/txtUsername"
+            />
+    -->
+
+    <!--
+   <EditText
+       android:id="@+id/txtEmail"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="25dp"
+       android:ems="10"
+       android:hint="@string/textEmail"
+       android:importantForAutofill="no"
+       android:inputType="textEmailAddress"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/txtUsername"
+       tools:ignore="UnusedAttribute"
+       android:enabled="false"/>
+
+       -->
+
+    <EditText
+        android:id="@+id/txtPasswordOld"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/passwordOld"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/app_bar"
+        tools:ignore="UnusedAttribute" />
+    <EditText
+        android:id="@+id/txtPasswordNew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/passwordNew"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPasswordOld"
+        tools:ignore="UnusedAttribute" />
+    <EditText
+        android:id="@+id/txtPasswordConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:ems="10"
+        android:hint="@string/passwordConfirm"
+        android:importantForAutofill="no"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtPasswordNew"
+        tools:ignore="UnusedAttribute" />
+
+   <Button
+       android:id="@+id/btnUpdate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:text="@string/btnUpdate"
+       app:layout_constraintHorizontal_bias="0.498"
+       app:layout_constraintLeft_toLeftOf="parent"
+       app:layout_constraintRight_toRightOf="parent"
+       app:layout_constraintTop_toBottomOf="@id/txtPasswordConfirm" />
+
+   <TextView
+       android:id="@+id/txtPasswordError"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:paddingStart="8dp"
+       android:paddingLeft="8dp"
+       android:paddingEnd="8dp"
+       android:paddingRight="8dp"
+       android:layout_marginStart="8dp"
+       android:layout_marginLeft="8dp"
+       android:layout_marginEnd="8dp"
+       android:layout_marginRight="8dp"
+       android:background="@drawable/round_corner_textview"
+       android:text=""
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/txtPasswordNew" />
+
+</android.support.constraint.ConstraintLayout>

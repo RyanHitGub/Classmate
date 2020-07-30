@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.studymate">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/classmate_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+        <activity android:name=".appActivities.CourseDetails"
+            android:label="Course Details"
+            android:parentActivityName=".appActivities.StudentPageActivity"
+            ></activity>
+        <activity
+            android:name=".appActivities.UpdateUserActivity"
+            android:label="Update Account"
+            android:parentActivityName=".appActivities.AccountDetails" />
+        <activity android:name=".appActivities.AdminPageActivity" />
+        <activity
+            android:name=".appActivities.AccountDetails"
+            android:label="User Details"
+            android:parentActivityName=".appActivities.StudentPageActivity" />
+        <activity
+            android:name=".appActivities.CourseSelectionActivity"
+            android:parentActivityName=".appActivities.StudentPageActivity" />
+        <activity
+            android:name=".SettingsActivity"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".appActivities.StudentPageActivity" />
+        <activity android:name=".login.SignupActivity" />
+        <activity android:name=".login.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

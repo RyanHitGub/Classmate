@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include
+        android:id="@+id/app_bar"
+        layout="@layout/app_bar" />
+
+    <TextView
+        android:id="@+id/db_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:textColor="@color/lightBlue"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/db_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_bar"
+        android:layout_toRightOf="@id/db_firstName"
+        android:layout_toEndOf="@id/db_firstName"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/db_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_firstName"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_institution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_userId"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_institution"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_emailAddress"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <EditText
+        android:id="@+id/db_password"
+        android:enabled="false"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_username"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp"
+        android:inputType="textPassword"
+        />
+
+    <Switch
+        android:id="@+id/passwordSwitch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="7dp"
+        android:text="@string/passwordShow"
+        android:checked="false"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/db_username"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/btnUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordSwitch"
+        android:layout_marginTop="7dp"
+        android:text="@string/btnUpdate"
+        android:visibility="visible"/>
+
+    <Button
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/passwordSwitch"
+        android:layout_alignBaseline="@+id/btnUpdate"
+        android:layout_alignBottom="@+id/btnUpdate"
+        android:layout_alignParentRight="true"
+        android:text="@string/btnDelete"
+        android:visibility="visible"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>

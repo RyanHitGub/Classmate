@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "513008346060",
+    "firebase_url": "https://classmate-c4057.firebaseio.com",
+    "project_id": "classmate-c4057",
+    "storage_bucket": "classmate-c4057.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513008346060:android:99031e56a07a4950",
+        "android_client_info": {
+          "package_name": "com.example.studymate"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513008346060-kv157n2mlv13ui3f09jq9h1476jgd662.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.studymate",
+            "certificate_hash": "f6c2f73934b30f1037e65598eb2c474ef3a0de99"
+          }
+        },
+        {
+          "client_id": "513008346060-l9lnvjgna3j4dek7mi81u8emkvlsd52i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPH4tjR8JEiKiZYoBe_QGpDlTfRxAo33M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513008346060-l9lnvjgna3j4dek7mi81u8emkvlsd52i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

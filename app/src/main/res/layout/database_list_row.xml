@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/db_firstName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/lightBlue"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/db_lastName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/db_firstName"
+        android:layout_toEndOf="@id/db_firstName"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textStyle="bold"
+        android:textSize="17sp" />
+    <TextView
+        android:id="@+id/db_userId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_firstName"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_institution"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_userId"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_emailAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_institution"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_emailAddress"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+    <TextView
+        android:id="@+id/db_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/db_username"
+        android:layout_marginTop="7dp"
+        android:textColor="@color/darkBlue"
+        android:textSize="14sp" />
+
+</RelativeLayout>
